@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mobile_navigation" app:startDestination="@+id/nav_principal">
+    <fragment android:label="@string/menu_principal" android:name="com.cursoandroid.navigationdrawertest.ui.principal.PrincipalFragment" android:id="@+id/nav_principal"/>
+    <fragment android:label="@string/menu_servicos" android:name="com.cursoandroid.navigationdrawertest.ui.servicos.ServicosFragment" android:id="@+id/nav_servicos"/>
+    <fragment android:label="@string/menu_clientes" android:name="com.cursoandroid.navigationdrawertest.ui.clientes.ClientesFragment" android:id="@+id/nav_clientes"/>
+    <fragment android:label="@string/menu_contato" android:name="com.cursoandroid.navigationdrawertest.ui.contato.ContatoFragment" android:id="@+id/nav_contato"/>
+    <fragment android:label="@string/menu_sobre" android:name="com.cursoandroid.navigationdrawertest.ui.sobre.SobreFragment" android:id="@+id/nav_sobre"/>
+    <fragment android:label="@string/menu_frutas_1" android:name="com.cursoandroid.navigationdrawertest.cd.Frutas_1.Frutas_1Fragment" android:id="@+id/nav_frutas_1"/>
+    <fragment android:label="@string/menu_frutas_2" android:name="com.cursoandroid.navigationdrawertest.cd.Frutas_2.Frutas_2Fragment" android:id="@+id/nav_frutas_2"/>
+    <fragment android:label="@string/menu_frutas_3" android:name="com.cursoandroid.navigationdrawertest.cd.Frutas_3.Frutas_3Fragment" android:id="@+id/nav_frutas_3"/>
+    <fragment android:label="@string/menu_numbers_1" android:name="com.cursoandroid.navigationdrawertest.cd.Numbers_1.Numbers_1Fragment" android:id="@+id/nav_numbers_1"/>
+    <fragment android:label="@string/menu_numbers_2" android:name="com.cursoandroid.navigationdrawertest.cd.Numbers_2.Numbers_2Fragment" android:id="@+id/nav_numbers_2"/>
+    <fragment android:label="@string/menu_sala_1" android:name="com.cursoandroid.navigationdrawertest.cd.Classroom_1Fragment" android:id="@+id/nav_sala_aula_1"/>
+    <fragment android:label="@string/menu_cozinha_1" android:name="com.cursoandroid.navigationdrawertest.cd.Kitchen_1Fragment" android:id="@+id/nav_cozinha_1"/>
+    <fragment android:label="@string/menu_sala_estar" android:name="com.cursoandroid.navigationdrawertest.cd.LivingRoom_1Fragment" android:id="@+id/nav_sala_estar"/>
+    <fragment android:label="@string/menu_restaurante" android:name="com.cursoandroid.navigationdrawertest.cd.RestaurantFragment" android:id="@+id/nav_restaurante"/>
+</navigation>
